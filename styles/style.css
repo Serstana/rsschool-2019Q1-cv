@@ -9,23 +9,23 @@ html{
 }
 
 hr{
-    border: none;
-    color:black;
-    background-color:black;
     height: 2px;
+    color:black;
+    border: none;
+    background-color:black;    
 }
 
 body{
     max-width: 210mm;
     width: 100%;
-    margin: 0 auto;    
     height: 297mm;
+    margin: 0 auto;    
     border:5px double black;
-    overflow: auto;
     background:#e3c28f;
     background: -webkit-linear-gradient(77deg, #e3c28f 26%, #ebcc9d  100%);
     background: -o-linear-gradient(77deg, #e3c28f 26%, #ebcc9d  100%);
-    background: linear-gradient(77deg, #e3c28f 26%, #ebcc9d 100%);    
+    background: linear-gradient(77deg, #e3c28f 26%, #ebcc9d 100%);
+    overflow: auto;    
 }
 
 /*HEAD*/
@@ -36,11 +36,11 @@ div.image{
 .image IMG{
     position: relative;     
 }
-  .persone{    
-    filter: sepia();
+  .persone{     
     left: 100px; 
     z-index: 1;
     border:2px solid white;
+    filter: sepia();
   }
   .clip{
     top: -120px; 
