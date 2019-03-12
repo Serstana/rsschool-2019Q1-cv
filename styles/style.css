@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+html{
+    background-color:white;
+}
+
+hr{
+    height: 2px;
+    color:black;
+    border: none;
+    background-color:black;    
+}
+
+body{
+    max-width: 210mm;
+    width: 100%;
+    height: 297mm;
+    margin: 0 auto;    
+    border:5px double black;
+    background:#e3c28f;
+    background: -webkit-linear-gradient(77deg, #e3c28f 26%, #ebcc9d  100%);
+    background: -o-linear-gradient(77deg, #e3c28f 26%, #ebcc9d  100%);
+    background: linear-gradient(77deg, #e3c28f 26%, #ebcc9d 100%);
+    overflow: auto;    
+}
+
+/*HEAD*/
+div.image{
+    float: left;    
+}
+
+.image IMG{
+    position: relative;     
+}
+  .persone{     
+    left: 100px; 
+    z-index: 1;
+    border:2px solid white;
+    filter: sepia();
+  }
+  .clip{
+    top: -120px; 
+    left:-120px;
+    z-index: 2;    
+  }
+
+div.contacts{
+    margin-top:20px;
+    margin-right:35px;
+    padding: 20px; 
+    float: right;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+  a:hover {
+    font-weight: normal;
+    color:black; 
+  }
+
+/*MAIN*/ 
+main{
+    clear: both;    
+}
+
+main  h1{
+    padding: 50px;
+    font-size:60px;
+    text-align: center;    
+}
+
+div.inform{
+    margin: 10px 35px 75px 132px;
+    line-height: 30px;   
+}
+
+div.data{
+    float:right;
+    margin-right:35px;
+    margin-bottom: 20px;    
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+}
+  p a:hover {
+    font-weight: bold;
+    color:black; 
+  }
